@@ -31,11 +31,11 @@
       </div>
     </header>
 
-    <div class="flex flex-1 bg-gray-700">
+    <div class="flex flex-1 bg-gray-700 justify-between">
       <!-- sidepanel left -->
-      <div class="w-1/4 bg-beige pl-4 pr-12">
+      <div class="w-64 bg-beige pl-2 pr-12">
         <div
-          class="text-4xl font-extrabold text-bg-gray-700 text-left leading-10 pl-4 pt-4 mt-4"
+          class="text-4xl font-extrabold text-bg-gray-700 text-left leading-10 pt-4 mt-4"
         >
           BERSAMA
           <div class="block">
@@ -45,16 +45,16 @@
         </div>
         <div
           style="font-family:'Shrikhand', display;"
-          class="text-left text-red-700 text-2xl pl-4"
+          class="text-left text-red-700 text-2xl"
         >
           #lawancorona
         </div>
-        <div class="flex flex-col items-start pl-4">
+        <div class="flex flex-col items-start">
           <div class="text-base font-bold text-gray-700 mt-4">
             Cari Lokasi
           </div>
           <input
-            class="w-3/4 p-2 rounded-md mt-2"
+            class="w-54 p-2 rounded-md mt-2"
             type="search"
             name="lokasi"
             id="lokasi"
@@ -63,9 +63,9 @@
       </div>
 
       <!-- middle section -->
-      <div class="flex flex-col flex-1 min-h-full justify-between">
+      <div class="flex flex-col flex-1 justify-between">
         <!-- map section   -->
-        <div class="flex-1">
+        <div>
           <div class="container mx-auto">
             <div
               class="tableauPlaceholder"
@@ -104,7 +104,8 @@
         </div>
       </div>
 
-      <div class="flex flex-col w-1/4 bg-gray-300">
+        <!-- side panel right -->
+      <div class="flex flex-col w-64 bg-gray-300">
         <div class="px-1 pb-8">
           <div class="text-left font-bold text-xl mb-3 bg-gray-500 p-3">
             Data
@@ -149,7 +150,7 @@
           </div>
         </div>
 
-        <div class="flex-1 bg-red-600">
+        <div class="flex-1 bg-gray-900">
           <div class="w-full mt-2 p-2">
             <header
               class="text-lg text-white text-left font-semibold pb-2 mb-2 border-b bordeer-gray-100"
