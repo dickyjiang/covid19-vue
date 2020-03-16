@@ -63,10 +63,10 @@
       </div>
 
       <!-- middle section -->
-      <div class="flex flex-col flex-1 justify-between">
+      <div class="flex flex-col w-3/4 justify-between">
         <!-- map section   -->
         <div>
-          <div class="container mx-auto">
+          <div class="object-contain w-full container mx-auto">
             <div
               class="tableauPlaceholder"
               id="viz1584294563043"
@@ -75,7 +75,6 @@
               <noscript
                 ><a href="#"
                   ><img
-                  class="object-contain h-64 w-full"
                     alt=" "
                     src="https://public.tableau.com/static/images/Pe/PetaSebaranODPPDP-BlueVersion/DashboardMapAllCases/1_rss.png"
                     style="border: none"
